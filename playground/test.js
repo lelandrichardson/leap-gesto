@@ -5,7 +5,7 @@ var el = {
     frame: document.getElementById("frameData"),
     hand: document.getElementById("handData"),
     pointable: document.getElementById("pointableData"),
-    gesture: document.getElementById("gestureData"),
+    gesture: document.getElementById("gestureData")
 };
 
 var previousFrame;
