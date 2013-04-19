@@ -2,16 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef344880-8a83-4665-b5fd-d573c29c3ed6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/playground/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ext/leap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ext/leap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/playground/test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/playground/gesto-test.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/playground/gesto-test.js" />
+      <change type="MOVED" beforePath="C:\code\leap-gesto\playground\gesto.js" afterPath="$PROJECT_DIR$/gesto.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="leap-gesto.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="ef344880-8a83-4665-b5fd-d573c29c3ed6" time="1366352840875" ignored="false" />
-    <file path="/index.html" changelist="ef344880-8a83-4665-b5fd-d573c29c3ed6" time="1366354306685" ignored="false" />
+    <file path="/index.html" changelist="ef344880-8a83-4665-b5fd-d573c29c3ed6" time="1366379581199" ignored="false" />
     <file path="/test.js" changelist="ef344880-8a83-4665-b5fd-d573c29c3ed6" time="1366354891867" ignored="false" />
+    <file path="/gesto.js" changelist="ef344880-8a83-4665-b5fd-d573c29c3ed6" time="1366392572585" ignored="false" />
+    <file path="/.gitignore" changelist="ef344880-8a83-4665-b5fd-d573c29c3ed6" time="1366356486977" ignored="false" />
+    <file path="/gesto-test.js" changelist="ef344880-8a83-4665-b5fd-d573c29c3ed6" time="1366394189891" ignored="false" />
+    <file path="/gesto-test.html" changelist="ef344880-8a83-4665-b5fd-d573c29c3ed6" time="1366393674269" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,10 +35,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="test.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="test.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/playground/test.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="46" selection-start="203" selection-end="203" vertical-scroll-proportion="0.12247839">
+            <state line="10" column="18" selection-start="335" selection-end="335" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gesto.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gesto.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="193" column="0" selection-start="5303" selection-end="5303" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#2248#2555#0" expanded="false" />
+                <element signature="e#2604#2945#0" expanded="false" />
+                <element signature="e#3083#3309#0" expanded="false" />
+                <element signature="e#3342#3421#0" expanded="false" />
+                <element signature="e#3581#3907#0" expanded="false" />
+                <element signature="e#3952#3998#0" expanded="false" />
+                <element signature="e#4148#4375#0" expanded="false" />
+                <element signature="e#4425#4871#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gesto-test.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/playground/gesto-test.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="30" column="17" selection-start="897" selection-end="897" vertical-scroll-proportion="0.2939481">
               <folding />
             </state>
           </provider>
@@ -43,12 +74,21 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/playground/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="22" selection-start="332" selection-end="332" vertical-scroll-proportion="-9.153846">
+            <state line="7" column="6" selection-start="164" selection-end="164" vertical-scroll-proportion="-4.576923">
               <folding>
                 <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gesto-test.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/playground/gesto-test.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="39" selection-start="189" selection-end="189" vertical-scroll-proportion="-3.9230769">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -72,8 +112,13 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/playground/tes.js" />
-        <option value="$PROJECT_DIR$/playground/index.html" />
         <option value="$PROJECT_DIR$/playground/test.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/playground/index.html" />
+        <option value="$PROJECT_DIR$/playground/gesto.js" />
+        <option value="$PROJECT_DIR$/gesto.js" />
+        <option value="$PROJECT_DIR$/playground/gesto-test.html" />
+        <option value="$PROJECT_DIR$/playground/gesto-test.js" />
       </list>
     </option>
   </component>
@@ -142,20 +187,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="leap-gesto" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="leap-gesto" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ext" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -169,9 +200,13 @@
     <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\code\leap-gesto\playground" />
       <recent name="C:\code\leap-gesto\ext" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\code\leap-gesto" />
+      <recent name="C:\code\leap-gesto\ext" />
     </key>
   </component>
   <component name="RunManager">
@@ -284,9 +319,46 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="0" selection-start="270" selection-end="270" vertical-scroll-proportion="0.61239195">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ext/underscore.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/playground/test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="18" selection-start="335" selection-end="335" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gesto.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="193" column="0" selection-start="5303" selection-end="5303" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#2248#2555#0" expanded="false" />
+            <element signature="e#2604#2945#0" expanded="false" />
+            <element signature="e#3083#3309#0" expanded="false" />
+            <element signature="e#3342#3421#0" expanded="false" />
+            <element signature="e#3581#3907#0" expanded="false" />
+            <element signature="e#3952#3998#0" expanded="false" />
+            <element signature="e#4148#4375#0" expanded="false" />
+            <element signature="e#4425#4871#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/playground/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="22" selection-start="332" selection-end="332" vertical-scroll-proportion="-9.153846">
+        <state line="7" column="6" selection-start="164" selection-end="164" vertical-scroll-proportion="-4.576923">
           <folding>
             <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -295,9 +367,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/playground/test.js">
+    <entry file="file://$PROJECT_DIR$/playground/gesto-test.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="46" selection-start="203" selection-end="203" vertical-scroll-proportion="0.12247839">
+        <state line="6" column="39" selection-start="189" selection-end="189" vertical-scroll-proportion="-3.9230769">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/playground/gesto-test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="17" selection-start="897" selection-end="897" vertical-scroll-proportion="0.2939481">
           <folding />
         </state>
       </provider>

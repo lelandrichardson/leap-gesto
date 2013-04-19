@@ -58,6 +58,8 @@
         // MAIN LOOP FUNCTION
         // --------------------------------------------------------------
         var loop = function(frame){
+
+
             each(gestures,function(gesture){
                 var value = gesture.loop.call(null, frame, controller);
                 if(value){
@@ -99,6 +101,10 @@
             return this;
         };
 
+
+
+
+
         // PRIMARY METHODS
         // --------------------------------------------------------------
         var start = function(){
@@ -114,6 +120,9 @@
             isStarted = false;
         };
 
+
+
+
         // GESTURE REGISTRATION
         // -------------------------------------------------------------
 
@@ -126,9 +135,11 @@
             }
             gestures[name] = gesture;
         };
+
         var removeGesture = function(name){
             delete gestures[name];
         };
+
 
 
 
@@ -157,7 +168,8 @@
                 }
             }
         };
-        
+
+
         
 
         // export public api. ensure that all methods are bound to have "this" be gesto
@@ -180,45 +192,3 @@
 }(window.Leap,window._));
 
 
-// example gesture
-
-;(function(){
-
-    //TODO: allow gestures to declare dependencies...
-    //TODO: how can gestures build on one another?
-
-    // define your own custom gesturew
-    var swipeGesture = (function(){
-        return {
-            name: "swipe", //default name when event fires
-            loop: function(frame, controller){
-                // handle onFrame data collection + analysis
-                var gestureOccurred = false;
-
-                // data analysis
-
-                // if gesture occurrs, pass back event data + name, otherwise pass back false
-                return gestureOccurred ? {
-                    name: "swipeLeft",
-                    data: {
-                        direction: [1,2,3],
-                        translation: 33.56,
-                        origin: [4,5,6],
-                        elapsed: 587
-                    }
-                } : false;
-            }
-        };
-    }());
-
-//    gesto.addGesture("swipe",swipeGesture);
-//
-//
-//    gesto.on("swipe",function(data){
-//
-//    });
-//
-//    gesto.start();
-
-
-}());
