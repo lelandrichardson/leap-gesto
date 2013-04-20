@@ -31,7 +31,7 @@
                 }
                 var justStarted = !isInGesture;
                 isInGesture = true;
-                // if gesture occurrs, pass back event data + name, otherwise pass back false
+                // if gesture occurs, pass back event data + name, otherwise pass back false
                 return justStarted ? {
                     name: "fiveFingers",
                     data: {

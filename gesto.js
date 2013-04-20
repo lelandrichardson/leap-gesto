@@ -82,7 +82,7 @@
 
             fire(eventName,data);
 
-            while((temp = ns.shift()) === undefined){
+            while((temp = ns.shift()) !== undefined){
                 eventName += '.' + temp;
                 fire(eventName,data);
             }
